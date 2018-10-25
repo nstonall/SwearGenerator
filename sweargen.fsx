@@ -1,0 +1,33 @@
+open System
+//50 elements
+open Col0
+//50 elements
+open Col1
+//49 elements
+open Col2
+
+let rnd = new Random()
+(*
+let num0 = rnd.Next(49)
+let num1 = rnd.Next(49)
+let num2 = rnd.Next(48)
+*)
+
+let gen0 (num0 : int): string =
+  let mutable firstWord = ""
+  firstWord <- col0.[num0]
+  //return firstWord
+
+let gen1 (num1 : int) : string =
+  let mutable secondWord = ""
+  secondWord <- col1.[num1]
+  //return secondWord
+
+let gen2 (num2 : int): string =
+  let mutable thirdWord = ""
+  thirdWord <- col2.[num2]
+  //return thirdWord
+
+
+//test
+printfn "Thou %s %s %s" (gen0 (rnd.Next(49))) (gen1 (rnd.Next(49))) (gen2 (rnd.Next(48)))
