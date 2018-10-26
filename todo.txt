@@ -1,0 +1,7 @@
+To do:
+
+* Make this event driven
+* Perhaps a picture of Shakespeare with a word bubble
+* Research GPL license
+* Add readme
+* Create designated folder in repo
