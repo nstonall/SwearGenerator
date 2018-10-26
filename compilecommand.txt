@@ -1,1 +1,3 @@
 fsharpc col0.fs col1.fs col2.fs sweargen.fsx && mono sweargen.exe
+
+mono sweargen.exe | cowsay | lolcat

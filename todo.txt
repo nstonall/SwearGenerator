@@ -5,3 +5,4 @@ To do:
 * Research GPL license
 * Add readme
 * Create designated folder in repo
+* Give credit to site
