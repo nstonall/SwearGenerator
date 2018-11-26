@@ -14,7 +14,7 @@ let num2 = rnd.Next(48)
 
 let gen0 (num0 : int): string =
   let mutable firstWord = ""
-  firstWord <- col0.[num0]
+  firstWord <- col2.[num0]
   firstWord
 
 let gen1 (num1 : int) : string =
