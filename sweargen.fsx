@@ -12,10 +12,9 @@ let num0 = rnd.Next(49)
 let num1 = rnd.Next(49)
 let num2 = rnd.Next(48)
 
-let gen0 (num0 : int): string =
-  let mutable firstWord = ""
-  firstWord <- col0.[num0]
-  firstWord
+let gen0 (num0 : int) =
+  printfn "Let's fuck shit up..."
+
 
 let gen1 (num1 : int) : string =
   let mutable secondWord = ""
